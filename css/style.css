@@ -1,0 +1,359 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(213, 255, 252, 0.65);
+}
+
+.header__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 12px 0;
+}
+
+.header__fio {
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 60px;
+  margin: 0 0 17px 0;
+  text-align: center;
+}
+
+.header__photo {
+  width: 176px;
+  height: 176px;
+}
+
+.header__line {
+  background: #000000;
+  border: 0.7px solid #000000;
+}
+
+@media (max-width: 842px) {
+  .header__profile {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .header__fio {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__fio {
+    font-size: 20px;
+  }
+  .header__photo {
+    width: 82px;
+    height: 82px;
+  }
+}
+
+.section {
+  background: #D8D8DF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__centre {
+  width: 100%;
+}
+
+.section__skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(178, 178, 181, 0.86);
+  width: 829px;
+}
+
+.section__language-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 117px;
+  margin: 14px 0;
+}
+
+.section__language-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+}
+
+.row-two {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.skills__tittle {
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 0.4em;
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.language__one {
+  margin-right: 23px;
+}
+
+.language__elipce {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.language__img {
+  width: 40px;
+  height: 40px;
+}
+
+.language__tittle {
+  margin: 0;
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section__progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 54px;
+}
+
+.progress__tittle {
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 40px;
+  margin-bottom: 21px;
+  letter-spacing: 0.4em;
+}
+
+.progress__one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 7px;
+}
+
+.progress__tit {
+  background: #FFFFFF;
+  border: 5px solid #D8D8DF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 203px;
+  height: 186px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 6px;
+}
+
+.progress__img {
+  width: 203px;
+  height: 100%;
+  margin: 0 6px;
+}
+
+.progress__number {
+  margin: 0;
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+}
+
+.progress__name {
+  margin: 0;
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 842px) {
+  .section__language {
+    width: 100%;
+  }
+  .section__language-container {
+    padding: 0;
+  }
+  .progress__tit {
+    width: 118px;
+    height: 109px;
+  }
+  .progress__img {
+    width: 118px;
+    height: 109px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section__language-row {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .section__language-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+  .language__one {
+    margin: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .skills__tittle {
+    font-size: 15px;
+    margin: 25px 0;
+  }
+  .language__elipce {
+    width: 40px;
+    height: 40px;
+  }
+  .language__img {
+    width: 20px;
+    height: 20px;
+  }
+  .language__tittle {
+    font-size: 10px;
+  }
+  .progress__tit {
+    margin: 0;
+  }
+  .progress__img {
+    margin: 0;
+  }
+  .progress__tittle {
+    font-size: 15px;
+    margin: 30px 0;
+  }
+  .progress__number {
+    font-size: 30px;
+  }
+  .progress__name {
+    font-size: 15px;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(156, 156, 160, 0.78);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__tittle {
+  font-family: 'Dancing Script';
+  font-weight: lighter;
+  font-size: 50px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-left: 17px;
+}
+
+.footer__network {
+  margin-right: 22px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 540px) {
+  .footer__tittle {
+    font-size: 20px;
+  }
+  .net {
+    width: 25px;
+    height: 25px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

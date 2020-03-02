@@ -1,0 +1,151 @@
+.section
+	background: #D8D8DF
+	display: flex
+	flex-direction: column
+	align-items: center
+	&__centre
+		width: 100%
+	&__skills
+		display: flex
+		flex-direction: column
+		align-items: center
+	&__language
+		display: flex
+		justify-content: center
+		background: rgba(178, 178, 181, 0.86)
+		width: 829px
+		&-container
+			display: flex
+			flex-basis: 100%
+			align-items: center
+			padding: 0 117px
+			margin: 14px 0
+		&-row
+			display: flex
+			justify-content: flex-end
+			width: 100%
+.row-two
+	justify-content: flex-start
+.skills__tittle
+	font-family: 'Dancing Script'
+	font-weight: lighter
+	font-size: 40px
+	letter-spacing: 0.4em
+	text-align: center
+	margin-bottom: 7px
+.language
+	&__one
+		margin-right: 23px
+	&__elipce
+		background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%)
+		width: 80px
+		height: 80px
+		border-radius: 50%
+		display: flex
+		align-items: center
+		justify-content: center
+	&__img
+		width: 40px
+		height: 40px
+	&__tittle
+		margin: 0
+		font-family: 'Dancing Script'
+		font-weight: lighter
+		font-size: 20px
+		text-align: center
+.section__progress
+	display: flex
+	flex-direction: column
+	align-items: center
+	padding-bottom: 54px
+.progress
+	&__tittle
+		font-family: 'Dancing Script'
+		font-weight: lighter
+		font-size: 40px
+		margin-bottom: 21px
+		letter-spacing: 0.4em
+	&__one
+		display: flex
+		margin-bottom: 7px
+	&__tit
+		background: #FFFFFF
+		border: 5px solid #D8D8DF
+		box-sizing: border-box
+		width: 203px
+		height: 186px
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		margin: 0 6px
+	&__img
+		width: 203px
+		height: 100%
+		margin: 0 6px
+	&__number
+		margin: 0
+		font-family: 'Dancing Script'
+		font-weight: lighter
+		font-size: 50px
+		text-align: center
+	&__name
+		margin: 0
+		font-family: 'Dancing Script'
+		font-weight: lighter
+		font-size: 25px
+		text-align: center
+
+@media ( max-width: 842px )
+	.section
+		&__language	
+			width: 100%
+			&-container
+				padding: 0
+	.progress
+		&__tit
+			width: 118px
+			height: 109px
+		&__img
+			width: 118px
+			height: 109px
+@media ( max-width: 768px )
+	.section
+		&__language
+			&-row
+				justify-content: space-around
+				margin-bottom: 15px
+			&-container
+				flex-direction: column
+				margin-bottom: 0
+	.language
+		&__one
+			margin: 0
+
+@media ( max-width: 425px )
+	.skills
+		&__tittle
+			font-size: 15px
+			margin: 25px 0
+	.language
+		&__elipce
+			width: 40px
+			height: 40px
+		&__img
+			width: 20px
+			height: 20px
+		&__tittle
+			font-size: 10px
+	.progress
+		&__tit
+			margin: 0
+		&__img
+			margin: 0
+		&__tittle
+			font-size: 15px
+			margin: 30px 0
+		&__number
+			font-size: 30px
+		&__name
+			font-size: 15px
+	
